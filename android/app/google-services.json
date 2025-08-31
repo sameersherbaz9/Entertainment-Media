@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1081235419848",
+    "project_id": "petzgram-backend",
+    "storage_bucket": "petzgram-backend.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081235419848:android:01ab3042f3b8830cc62bfd",
+        "android_client_info": {
+          "package_name": "com.petzgram"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJVVbMJlIl120_PibL49gXlluik3KrL-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
