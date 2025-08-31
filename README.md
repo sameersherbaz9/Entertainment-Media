@@ -46,8 +46,6 @@ A React Native CLI + TypeScript application built with Firebase backend, featuri
 - [x] **State Management**: Redux Toolkit with persistence
 - [x] **Firebase Integration**: Basic setup ready
 
-### 🚧 In Progress Features
-
 #### Authentication & Onboarding
 - [ ] **Animated Splash Screen**: Logo morphing animation with Reanimated
 - [ ] **Onboarding Flow**: 3-5 slides with parallax animations
@@ -61,8 +59,6 @@ A React Native CLI + TypeScript application built with Firebase backend, featuri
 - [ ] **Post Creation**: Multi-media composer with editing
 - [ ] **Discovery**: Trending, breed filters, geo-search
 - [ ] **Profiles**: Multi-pet support, statistics
-
-### 📅 Planned Features
 
 #### Social Features
 - [ ] **Comments System**: Nested replies, mentions
@@ -89,29 +85,6 @@ A React Native CLI + TypeScript application built with Firebase backend, featuri
 - 60fps animations across all interactions
 - Smooth scrolling with optimized lists
 - Efficient video playback management
-
-## 🗄️ Data Architecture
-
-### Firebase Collections
-```
-users/{uid}
-├── displayName, photoURL, bio
-├── breeds[], geo, counters
-└── premium: {active, plan, expiry}
-
-posts/{postId}
-├── authorUid, media[]
-├── caption, breeds[], location
-└── likesCount, commentsCount
-
-stories/{uid}/items/{storyId}
-├── media, expiresAt
-└── viewersCount
-
-chats/{chatId}
-├── members[2], lastMessage
-└── messages subcollection
-```
 
 ### Security Rules
 - User-owned data protection
